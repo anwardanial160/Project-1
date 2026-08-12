@@ -1,0 +1,10 @@
+def test_api_has_hourly_data():
+    assert "hourly" in forecast 
+def test_time_and_temperature_same_length():
+    assert len(forecast["hourly"]["time"]) == len(
+        forecast["hourly"]["temperature_2m"])
+    
+def test_time_and_temperature_same_length():
+    assert len(forecast["hourly"]["time"]) == len(
+        forecast["hourly"]["temperature_2m"])
+     
